@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div class="d-flex mt-3">
-				<div class="col d-flex justify-content-between">
+				<div class="col col-100 d-flex justify-content-between">
 					<ul class="d-flex w-100 justify-content-between tabs">
 						<li><a href="#" class="active">Subscription</a></li>
 						<li><a href="#">Outright</a></li>
@@ -51,95 +51,175 @@
 		</div>
 		<div class="wrapper_main mt-3">
 			<h4>Systems</h4>
-			<input type="checkbox" id="table-collapse" hidden>
 			<div class="responsive-table">
 				<div class="table">
-					<div class="row">
-						<div class="col-2">
-							<span>System Name</span>
+				<input type="checkbox" id="table-collapse" hidden>
+					<div class="collapsed-row">
+						<div class="row">
+							<div class="col-2">
+								<span>System Name</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>ID</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>Created date</span>
+							</div>
+							<div class="col-2 text-end">
+								<span>Active Licenses</span>
+							</div>
 						</div>
-						<div class="col-2 text-end">
-							<span>ID</span>
+						<div class="row mt-1 bg-dark p-1">
+							<div class="col-auto d-flex align-items-center">
+								<label for="table-collapse">
+									<span class="rectangle"></span>
+								</label>
+								<p>James-Main-Mackbook</p>
+							</div>
+							<div class="col-auto d-flex align-items-center">
+								<p>91520</p>
+							</div>
+							<div class="col-auto d-flex align-items-center">
+								<p>01 Jan 2019</p>
+							</div>
+							<div class="col-auto d-flex align-items-center justify-content-end">
+								<p>2</p>
+							</div>
+							<div class="col-auto text-end">
+								<a href="#" class="btn btn-success">Add License</a>
+								<a href="#" class="btn btn-danger">Remove</a>
+							</div>
 						</div>
-						<div class="col-2 text-end">
-							<span>Created date</span>
-						</div>
-						<div class="col-2 text-end">
-							<span>Active Licenses</span>
+						<div class="subRow mt-1">
+							<div class="row headRow">
+								<div class="col-2">
+									<span>Licenses</span>
+								</div>
+								<div class="col-2 text-end">
+									<span>Expires</span>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									Jenkins Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="row mt-1 bg-dark p-1">
-						<div class="col-auto d-flex align-items-center">
-							<label for="table-collapse">
-								<span class="rectangle"></span>
-							</label>
-							<p>James-Main-Mackbook</p>
-						</div>
-						<div class="col-auto d-flex align-items-center">
-							<p>91520</p>
-						</div>
-						<div class="col-auto d-flex align-items-center">
-							<p>01 Jan 2019</p>
-						</div>
-						<div class="col-auto d-flex align-items-center justify-content-end">
-							<p>2</p>
-						</div>
-						<div class="col-auto text-end">
-							<a href="#" class="btn btn-success">Add License</a>
-							<a href="#" class="btn btn-danger">Remove</a>
-						</div>
-					</div>
-					<div class="subRow mt-1">
-						<div class="row headRow">
-							<div class="col-2">
-								<span>Licenses</span>
-							</div>
-							<div class="col-2 text-end">
-								<span>Expires</span>
-							</div>
-						</div>
+					<input type="checkbox" id="table-collapse2" hidden>
+					<div class="collapsed-row">
 						<div class="row mt-1 bg-dark p-1">
-							<div class="col-2">
-								Jenkins Pro
+							<div class="col-auto d-flex align-items-center">
+								<label for="table-collapse2">
+									<span class="rectangle"></span>
+								</label>
+								<p>James-Laptop</p>
 							</div>
-							<div class="col-2 text-end">
-								Never
+							<div class="col-auto d-flex align-items-center">
+								<p>84729</p>
+							</div>
+							<div class="col-auto d-flex align-items-center">
+								<p>15 Jan 2020</p>
+							</div>
+							<div class="col-auto d-flex align-items-center justify-content-end">
+								<p>1</p>
 							</div>
 							<div class="col-auto text-end">
-								<a href="#" class="white-link">Download</a>
+								<a href="#" class="btn btn-success">Add License</a>
+								<a href="#" class="btn btn-danger">Remove</a>
 							</div>
 						</div>
-						<div class="row mt-1 bg-dark p-1">
-							<div class="col-2">
-								Jenkins Pro
+						<div class="subRow mt-1">
+							<div class="row headRow">
+								<div class="col-2">
+									<span>Licenses</span>
+								</div>
+								<div class="col-2 text-end">
+									<span>Expires</span>
+								</div>
 							</div>
-							<div class="col-2 text-end">
-								Never
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									James Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
 							</div>
-							<div class="col-auto text-end">
-								<a href="#" class="white-link">Download</a>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									James Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
 							</div>
-						</div>
-						<div class="row mt-1 bg-dark p-1">
-							<div class="col-2">
-								Jenkins Pro
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									James Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
 							</div>
-							<div class="col-2 text-end">
-								Never
-							</div>
-							<div class="col-auto text-end">
-								<a href="#" class="white-link">Download</a>
-							</div>
-						</div>
-						<div class="row mt-1 bg-dark p-1">
-							<div class="col-2">
-								Jenkins Pro
-							</div>
-							<div class="col-2 text-end">
-								Never
-							</div>
-							<div class="col-auto text-end">
-								<a href="#" class="white-link">Download</a>
+							<div class="row mt-1 bg-dark p-1">
+								<div class="col-2">
+									James Pro
+								</div>
+								<div class="col-2 text-end">
+									Never
+								</div>
+								<div class="col-auto text-end">
+									<a href="#" class="white-link">Download</a>
+								</div>
 							</div>
 						</div>
 					</div>
